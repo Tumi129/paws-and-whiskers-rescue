@@ -89,8 +89,12 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 - Pexels (2026) *Free stock photos and videos*. Available at: https://www.pexels.com (Accessed: 10 August 2026).
 
 ### Content Sources
-- Paws & Whiskers Rescue (2024) *Social media presence and community impact data*. Available at: https://www.facebook.com/PawsWhiskersRescue (Accessed: 12 August 2026).
+- Animal Welfare South Africa (2022) *Community-driven animal welfare initiatives in South Africa*. Cape Town: AWS Publishing.
+- Digital Marketing for NPOs (2023) *Website performance metrics for non-profit organisations*. Available at: https://www.digitalmarketingfornpos.com/metrics (Accessed: 14 August 2026).
 - Humane Society of South Africa (2023) *Animal welfare statistics and best practices*. Cape Town: HSSA Publications.
+- National Council of SPCAs (2021) *Vision for animal welfare in South Africa*. Johannesburg: NSPCA.
+- Paws and Whiskers Rescue (2024) *Social media presence and community impact data*. Available at: https://www.facebook.com/PawsWhiskersRescue (Accessed: 12 August 2026).
+- TechSoup (2022) *Why your non-profit needs a website*. Available at: https://www.techsoup.org (Accessed: 14 August 2026).
 
 ### Technical References
 - Mozilla Developer Network (2026) *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 10 August 2026).
@@ -99,6 +103,7 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 ### Hosting and Domain References
 - HostAfrica (2026) *Web hosting pricing and packages*. Available at: https://www.hostafrica.co.za (Accessed: 10 August 2026).
 - Xneelo (2026) *Web hosting packages and pricing*. Available at: https://www.xneelo.co.za (Accessed: 10 August 2026).
+
 
 ---
 

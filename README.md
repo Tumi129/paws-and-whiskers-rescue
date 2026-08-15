@@ -56,7 +56,7 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 ## Part 1 Details
 
 ### Deliverables Completed
--  Two Website Project Proposals submitted
+-  Website Project Proposal submitted
 -  Chosen organisation: Paws & Whiskers Rescue
 -  Content research and sourcing completed
 -  File and folder structure established

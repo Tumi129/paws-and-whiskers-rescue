@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws &amp; Whiskers Rescue — Home</title>
@@ -57,11 +58,15 @@
             <!-- Image sourced from Unsplash under CC0 licence -->
             <!-- Citation: Unsplash (2026) -->
             <figure>
-                <img src="images/hero-dog.jpg" alt="A happy rescued dog looking for a home" width="600">
+                <!-- Responsive image using srcset and sizes -->
+                <img src="images/hero-dog.jpg"
+                     srcset="images/hero-dog.jpg 600w, images/hero-dog-large.jpg 1200w"
+                     sizes="(max-width: 600px) 100vw, 600px"
+                     alt="A happy rescued dog looking for a home">
                 <figcaption><em>Source: Unsplash (2026)</em></figcaption>
             </figure>
 
-            <p><strong>Adopt</strong> | <strong>Donate</strong> | <strong>Volunteer</strong></p>
+          <p><strong>Adopt</strong> | <strong>Donate</strong> | <strong>Volunteer</strong></p>
         </section>
 
         <!-- ==================== MISSION SECTION ==================== -->

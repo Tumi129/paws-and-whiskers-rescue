@@ -65,7 +65,23 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 -  Navigation menu implemented across all pages
 -  HTML code commented and properly indented
 -  GitHub repository set up with regular commits
+---
+## Part 2 Details
 
+### Deliverables Completed
+- Created external stylesheet (`style.css`) and linked to all 5 HTML pages.
+- Established a CSS reset and base styles (font, colour scheme, margins).
+- Applied typography styles (Montserrat for headings, Open Sans for body).
+- Implemented layout using CSS Flexbox (header) and Grid (forms).
+- Applied visual styles (colours, borders, box-shadows, hover effects).
+- Implemented responsive design using media queries (Tablet: 768px, Mobile: 480px).
+- Used relative units (`rem`, `%`) for fonts, spacing, and widths.
+- Applied responsive images using `srcset` and `sizes`.
+- Tested using Chrome Developer Tools on Desktop, Tablet, and Mobile.
+
+### File Structure Updates
+- Added `css/style.css`
+- Added `screenshots/` folder for responsive design evidence.
 ---
 
 ## Sitemap
@@ -77,7 +93,7 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 The website has been tested on multiple screen sizes using Google Chrome Developer Tools. Below is the screenshot evidence demonstrating the responsive layout.
 
 ### Desktop View (1920px)
-![Desktop View](desktop.png)(desktop 2.png)
+![Desktop View](desk top.png)(desk top 2.png)
 *The desktop view displays a horizontal navigation menu, multi-column layout, and full-sized images.*
 
 ### Tablet View (768px)

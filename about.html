@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws &amp; Whiskers Rescue — About Us</title>
@@ -63,7 +64,11 @@
             <!-- Image sourced from Pexels under CC0 licence -->
             <!-- Citation: Pexels (2026) -->
             <figure>
-                <img src="images/team-1.jpg" alt="The Paws and Whiskers Rescue team with rescued animals" width="600">
+                <!-- Responsive image using srcset and sizes -->
+                <img src="images/team-1.jpg"
+                     srcset="images/team-1.jpg 600w, images/team-1-large.jpg 1200w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     alt="The Paws and Whiskers Rescue team with rescued animals">
                 <figcaption><em>Source: Pexels (2026)</em></figcaption>
             </figure>
         </section>
@@ -121,7 +126,11 @@
             <!-- Image sourced from Unsplash under CC0 licence -->
             <!-- Citation: Unsplash (2026) -->
             <figure>
-                <img src="images/team-2.jpg" alt="Team members caring for animals" width="600">
+                <!-- Responsive image using srcset and sizes -->
+                <img src="images/team-2.jpg"
+                     srcset="images/team-2.jpg 600w, images/team-2-large.jpg 1200w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     alt="Team members caring for animals">
                 <figcaption><em>Source: Unsplash (2026)</em></figcaption>
             </figure>
         </section>

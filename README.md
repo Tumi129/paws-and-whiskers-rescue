@@ -93,7 +93,7 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 The website has been tested on multiple screen sizes using Google Chrome Developer Tools. Below is the screenshot evidence demonstrating the responsive layout.
 
 ### Desktop View (1920px)
-![Desktop View](desk top.png)(desk top 2.png)
+![Desktop View](Desk top.png)(Desk top 2.png)
 *The desktop view displays a horizontal navigation menu, multi-column layout, and full-sized images.*
 
 ### Tablet View (768px)

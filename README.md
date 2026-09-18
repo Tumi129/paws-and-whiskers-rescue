@@ -47,7 +47,7 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 
 | Milestone | Description | Target Date |
 | Part 1 | Project proposal, HTML structure, GitHub setup | 17/08/2026|
-| Part 2 | CSS styling and responsive design | TBD |
+| Part 2 | CSS styling and responsive design | 18/09/2026 |
 | Part 3 | JavaScript functionality and final testing | TBD|
 | Final Submission | Complete website and documentation | TBD|
 
@@ -72,14 +72,28 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 <img width="522" height="392" alt="Sitemap drawio" src="https://github.com/user-attachments/assets/477204a7-f3ba-410c-9ad5-13fab0ce2e5f" />
 
 ---
+## Responsive Design Evidence
 
+The website has been tested on multiple screen sizes using Google Chrome Developer Tools. Below is the screenshot evidence demonstrating the responsive layout.
+
+### Desktop View (1920px)
+![Desktop View](desktop.png)(desktop 2.png)
+*The desktop view displays a horizontal navigation menu, multi-column layout, and full-sized images.*
+
+### Tablet View (768px)
+![Tablet View](tablet.png)(tablet 2.png)
+*The tablet view stacks the navigation menu vertically and adjusts the layout for medium-sized screens.*
+
+### Mobile View (375px)
+![Mobile View](mobile.png)(mobile 2.png)
+*The mobile view uses a single-column layout, smaller font sizes, and responsive images to ensure readability on small screens.*
 ## Changelog
 
 | Date | Version | Changes |
 | 2026-08-12 | v1.0 | Initial project setup. Created all 5 HTML pages. Established file structure. Implemented navigation. Added code comments. |
 | 2026-08-12 | v1.0 | Completed two project proposals. Selected Paws & Whiskers Rescue as the target organisation. |
 | 2026-08-12 | v1.0 | Set up GitHub repository. Initial commit with all HTML files and README.md. |
-
+| 2026-09-18 | v2.0 | Part 2: Created external stylesheet (style.css). Applied CSS reset, typography, layout (Flexbox/Grid), visual styles, and responsive media queries. Implemented responsive images using srcset and sizes. Added responsive design screenshots. |
 ---
 
 ## References
@@ -103,11 +117,13 @@ Contact (contact.html); Multiple location addresses, contact form, social media 
 ### Hosting and Domain References
 - HostAfrica (2026) *Web hosting pricing and packages*. Available at: https://www.hostafrica.co.za (Accessed: 10 August 2026).
 - Xneelo (2026) *Web hosting packages and pricing*. Available at: https://www.xneelo.co.za (Accessed: 10 August 2026).
-
-
+### Technical References
+- Google Fonts (2026) *Montserrat*. Available at: https://fonts.google.com/specimen/Montserrat (Accessed: 18 September 2026).
+- Google Fonts (2026) *Open Sans*. Available at: https://fonts.google.com/specimen/Open+Sans (Accessed: 18 September 2026).
+- Mozilla Developer Network (2026) *Responsive images*. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images (Accessed: 18 September 2026).
 ---
 
-*This README.md will be updated in Part 2 and Part 3 as the project progresses.*
+*This README.md will be updated in Part 3 as the project progresses.*
 
 
 

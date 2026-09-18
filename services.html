@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws &amp; Whiskers Rescue — Adoption</title>
@@ -96,7 +97,11 @@
                 <!-- Image sourced from Unsplash under CC0 licence -->
                 <!-- Citation: Unsplash (2026) -->
                 <figure>
-                    <img src="images/adoption-dog-1.jpg" alt="Max, a friendly golden retriever mix" width="300">
+                    <!-- Responsive image using srcset and sizes -->
+                    <img src="images/adoption-dog-1.jpg"
+                         srcset="images/adoption-dog-1.jpg 300w, images/adoption-dog-1-large.jpg 600w"
+                         sizes="(max-width: 480px) 100vw, 300px"
+                         alt="Max, a friendly golden retriever mix">
                     <figcaption><em>Source: Unsplash (2026)</em></figcaption>
                 </figure>
 
@@ -113,7 +118,11 @@
                 <!-- Image sourced from Pexels under CC0 licence -->
                 <!-- Citation: Pexels (2026) -->
                 <figure>
-                    <img src="images/adoption-cat-1.jpg" alt="Luna, a playful grey tabby cat" width="300">
+                    <!-- Responsive image using srcset and sizes -->
+                    <img src="images/adoption-cat-1.jpg"
+                         srcset="images/adoption-cat-1.jpg 300w, images/adoption-cat-1-large.jpg 600w"
+                         sizes="(max-width: 480px) 100vw, 300px"
+                         alt="Luna, a playful grey tabby cat">
                     <figcaption><em>Source: Pexels (2026)</em></figcaption>
                 </figure>
 
@@ -167,7 +176,7 @@
             </article>
         </section>
 
-    </main>
+    </main> 
 
     <!-- ============================================================
          FOOTER

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Tumi129.github.io/paws-and-whiskers-rescue/sitemap.xml

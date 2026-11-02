@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paws &amp; Whiskers Rescue — Get Involved</title>
-    <!--
-        ============================================================
-        WEDE5020 Web Development - Part 1
-        Student Name: Itumeleng Sogoni
-        Student Number: ST10479458
-        Date: 15 August 2026
-        Description: Enquiry/Volunteer registration page for
-        Paws & Whiskers Rescue
-        ============================================================
-    -->
+
+    <!-- ============================================================
+         PART 3: SEO META TAGS
+         ============================================================ -->
+    <meta name="description" content="Volunteer or become a sponsor at Paws & Whiskers Rescue. Fill in our enquiry form to help animals in need.">
+    <meta name="keywords" content="volunteer animal shelter, sponsor a pet, animal rescue volunteering">
+
+    <title>Get Involved | Paws & Whiskers Rescue</title>
+
+    <!-- Link to External Stylesheet (Part 2) -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- ============================================================
          HEADER
-         Contains the organisation name/tagline and navigation menu
          ============================================================ -->
     <header>
         <h1>🐾 Paws &amp; Whiskers Rescue</h1>
@@ -28,7 +26,6 @@
 
         <!-- ============================================================
              NAVIGATION
-             Navigation menu linking to all pages of the website
              ============================================================ -->
         <nav>
             <ul>
@@ -43,12 +40,10 @@
 
     <!-- ============================================================
          MAIN CONTENT
-         The primary content area for the Enquiry page
          ============================================================ -->
     <main>
 
         <!-- ==================== INTRODUCTION SECTION ==================== -->
-        <!-- Explains the different ways users can get involved -->
         <section>
             <h2>Get Involved With Paws &amp; Whiskers Rescue</h2>
             <p>
@@ -59,48 +54,16 @@
             </p>
         </section>
 
-        <!-- ==================== VOLUNTEER SECTION ==================== -->
-        <!-- Provides information about volunteering opportunities -->
-        <section>
-            <h3>Volunteer With Us</h3>
-            <p>We are always looking for passionate volunteers to help with:</p>
-            <ul>
-                <li>Animal care and socialisation</li>
-                <li>Administrative support</li>
-                <li>Event coordination and fundraising</li>
-                <li>Transport and logistics</li>
-                <li>Foster care for animals awaiting adoption</li>
-            </ul>
-            <p>Fill out the form below to register your interest in volunteering.</p>
-        </section>
-
-        <!-- ==================== SPONSOR SECTION ==================== -->
-        <!-- Provides information about sponsorship opportunities -->
-        <section>
-            <h3>Become a Sponsor</h3>
-            <p>
-                Corporate sponsors play a vital role in our ability to rescue
-                and rehabilitate animals. Sponsorship opportunities include:
-            </p>
-            <ul>
-                <li><strong>Platinum Sponsor (ZAR 50,000+)</strong> — Major branding and naming rights</li>
-                <li><strong>Gold Sponsor (ZAR 25,000 - 49,999)</strong> — Featured on website and events</li>
-                <li><strong>Silver Sponsor (ZAR 10,000 - 24,999)</strong> — Logo on website and social media</li>
-                <li><strong>Bronze Sponsor (ZAR 5,000 - 9,999)</strong> — Acknowledgment on website</li>
-            </ul>
-            <p>
-                Complete the enquiry form below and a member of our team will
-                contact you to discuss sponsorship opportunities.
-            </p>
-        </section>
-
         <!-- ==================== ENQUIRY FORM SECTION ==================== -->
-        <!-- Contains the main enquiry/registration form -->
         <section>
             <h3>Enquiry / Registration Form</h3>
             <p>Please complete all fields marked with an asterisk (*).</p>
 
-            <form action="#" method="post">
+            <!-- ============================================================
+                 PART 3: FORM VALIDATION
+                 Added 'novalidate' so our custom JavaScript handles the errors
+                 ============================================================ -->
+            <form action="#" method="post" novalidate>
 
                 <!-- Personal Information Fieldset -->
                 <fieldset>
@@ -137,41 +100,12 @@
                     <label for="other">Other</label><br><br>
                 </fieldset>
 
-                <!-- Volunteer Availability Fieldset -->
-                <fieldset>
-                    <legend>Availability (for volunteers)</legend>
-
-                    <label for="availability">When are you available to volunteer?</label><br>
-                    <select id="availability" name="availability">
-                        <option value="weekdays">Weekdays</option>
-                        <option value="weekends">Weekends</option>
-                        <option value="evenings">Evenings</option>
-                        <option value="flexible">Flexible</option>
-                    </select><br><br>
-
-                    <label>Areas of interest: *</label><br>
-                    <input type="checkbox" id="animalCare" name="interests" value="animalCare">
-                    <label for="animalCare">Animal Care</label><br>
-
-                    <input type="checkbox" id="admin" name="interests" value="admin">
-                    <label for="admin">Administration</label><br>
-
-                    <input type="checkbox" id="events" name="interests" value="events">
-                    <label for="events">Events &amp; Fundraising</label><br>
-
-                    <input type="checkbox" id="transport" name="interests" value="transport">
-                    <label for="transport">Transport</label><br>
-
-                    <input type="checkbox" id="foster" name="interests" value="foster">
-                    <label for="foster">Foster Care</label><br><br>
-                </fieldset>
-
                 <!-- Message Fieldset -->
                 <fieldset>
                     <legend>Your Message</legend>
 
                     <label for="message">Tell us why you'd like to get involved: *</label><br>
-                    <textarea id="message" name="message" rows="6" cols="50" required placeholder="Please share your motivation and any relevant experience..."></textarea><br><br>
+                    <textarea id="message" name="message" rows="6" cols="50" required placeholder="Please share your motivation..."></textarea><br><br>
                 </fieldset>
 
                 <!-- Form Buttons -->
@@ -181,38 +115,17 @@
             </form>
         </section>
 
-        <!-- ==================== ALTERNATIVE CONTACT SECTION ==================== -->
-        <!-- Provides alternative contact methods -->
-        <section>
-            <h3>Prefer to Contact Us Directly?</h3>
-            <p>Email us at: <a href="mailto:info@pawsandwhiskersrescue.co.za">info@pawsandwhiskersrescue.co.za</a></p>
-            <p>Call us: <a href="tel:+27211234567">+27 21 123 4567</a></p>
-            <p><a href="contact.html">Visit our Contact Page</a> for more information.</p>
-        </section>
-
     </main>
 
     <!-- ============================================================
          FOOTER
-         Contains copyright information, social media links,
-         and secondary navigation
          ============================================================ -->
     <footer>
         <p>&copy; 2026 Paws &amp; Whiskers Rescue. All rights reserved.</p>
-        <p>
-            Follow us:
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a> |
-            <a href="#">Twitter</a>
-        </p>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="services.html">Adoption</a> |
-            <a href="enquiry.html">Get Involved</a> |
-            <a href="contact.html">Contact</a>
-        </p>
+        <p>Follow us: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
     </footer>
 
+    <!-- Link to JavaScript (Part 3) -->
+    <script src="js/script.js" defer></script>
 </body>
 </html>

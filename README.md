@@ -9,8 +9,8 @@
 ---
 
 ## Live Website Link
-**[https://Tumii29.github.io/paws-and-whiskers-rescue/](https://Tumi129.github.io/paws-and-whiskers-rescue/)**
-*(Note: Replace this link with your actual deployed GitHub Pages link if it differs)*
+**[https://Tumi129.github.io/paws-and-whiskers-rescue/](https://tumi129.github.io/paws-and-whiskers-rescue/)**
+
 
 ---
 

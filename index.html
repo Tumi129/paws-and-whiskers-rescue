@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paws &amp; Whiskers Rescue — Home</title>
-    <!--
-        ============================================================
-        WEDE5020 Web Development - Part 1
-        Student Name: Itumeleng Sogoni
-        Student Number: ST10479458
-        Date: 15 August 2026
-        Description: Homepage for Paws & Whiskers Rescue
-        ============================================================
-    -->
+
+    <!-- ============================================================
+         PART 3: SEO META TAGS
+         Improves search engine ranking and user click-through rate
+         ============================================================ -->
+    <meta name="description" content="Paws & Whiskers Rescue is a non-profit animal rescue organisation in Cape Town dedicated to rescuing, rehabilitating, and rehoming abandoned animals.">
+    <meta name="keywords" content="animal rescue, adopt a pet, Cape Town, non-profit, dog adoption, cat adoption">
+
+    <title>Paws & Whiskers Rescue | Adopt a Pet in Cape Town</title>
+
+    <!-- Link to External Stylesheet (Part 2) -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -47,7 +48,6 @@
     <main>
 
         <!-- ==================== HERO SECTION ==================== -->
-        <!-- Introduces the organisation with a hero image and call to action -->
         <section>
             <h2>Give a Furry Friend a Second Chance</h2>
             <p>
@@ -55,22 +55,19 @@
                 At Paws &amp; Whiskers Rescue, we believe every animal deserves a loving home.
             </p>
 
-            <!-- Image sourced from Unsplash under CC0 licence -->
-            <!-- Citation: Unsplash (2026) -->
+            <!-- Responsive image using srcset and sizes (Part 2) -->
             <figure>
-                <!-- Responsive image using srcset and sizes -->
                 <img src="images/hero-dog.jpg"
                      srcset="images/hero-dog.jpg 600w, images/hero-dog-large.jpg 1200w"
                      sizes="(max-width: 600px) 100vw, 600px"
-                     alt="A happy rescued dog looking for a home">
+                     alt="A happy rescued dog looking for a loving home in Cape Town">
                 <figcaption><em>Source: Unsplash (2026)</em></figcaption>
             </figure>
 
-          <p><strong>Adopt</strong> | <strong>Donate</strong> | <strong>Volunteer</strong></p>
+            <p><strong>Adopt</strong> | <strong>Donate</strong> | <strong>Volunteer</strong></p>
         </section>
 
         <!-- ==================== MISSION SECTION ==================== -->
-        <!-- States the organisation's mission statement -->
         <section>
             <h3>Our Mission</h3>
             <p>
@@ -81,7 +78,6 @@
         </section>
 
         <!-- ==================== IMPACT SECTION ==================== -->
-        <!-- Displays key statistics about the organisation's achievements -->
         <section>
             <h3>Our Impact</h3>
             <ul>
@@ -93,13 +89,12 @@
         </section>
 
         <!-- ==================== CALL TO ACTION SECTION ==================== -->
-        <!-- Provides clear pathways for users to take action -->
         <section>
             <h3>How You Can Help</h3>
             <ul>
                 <li><a href="services.html"> Adopt a Pet</a></li>
                 <li><a href="enquiry.html"> Volunteer With Us</a></li>
-                <li><a href="contact.html">Make a Donation</a></li>
+                <li><a href="contact.html"> Make a Donation</a></li>
             </ul>
         </section>
 
@@ -107,8 +102,6 @@
 
     <!-- ============================================================
          FOOTER
-         Contains copyright information, social media links,
-         and secondary navigation
          ============================================================ -->
     <footer>
         <p>&copy; 2026 Paws &amp; Whiskers Rescue. All rights reserved.</p>
@@ -118,15 +111,13 @@
             <a href="#">Instagram</a> |
             <a href="#">Twitter</a>
         </p>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="services.html">Adoption</a> |
-            <a href="enquiry.html">Get Involved</a> |
-            <a href="contact.html">Contact</a>
-        </p>
         <p><small>Images sourced from Unsplash under CC0 licence (Unsplash, 2026).</small></p>
     </footer>
 
+    <!-- ============================================================
+         PART 3: JAVASCRIPT LINK
+         The 'defer' attribute ensures the HTML loads before the script runs
+         ============================================================ -->
+    <script src="js/script.js" defer></script>
 </body>
 </html>

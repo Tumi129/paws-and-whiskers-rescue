@@ -1,4 +1,8 @@
 /* ============================================================
+   WEDE5020 Web Development - Part 2 & Part 3 Styles
+   ============================================================ */
+
+/* ============================================================
    BASE STYLE & CSS RESET
    ============================================================ */
 * {
@@ -7,30 +11,30 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Open Sans', Arial, sans-serif; /* Body text */
-    font-size: 16px; /* Base size */
-    line-height: 1.6;
-    color: #333333; /* Text colour */
-    background-color: #F5F5F5; /* Light grey background */
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Montserrat', Arial, sans-serif; /* Headings */
-    color: #2E7D32; /* Forest Green */
-    margin-bottom: 1rem;
-}
-
-/* Add colour scheme variables */
 :root {
-    --primary-color: #2E7D32;
-    --secondary-color: #FF8F00;
+    --primary-color: #2E7D32; /* Forest Green */
+    --secondary-color: #FF8F00; /* Warm Amber */
     --text-color: #333333;
-    --bg-color: #FFFFFF;
+    --bg-color: #F5F5F5;
 }
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
 /* ============================================================
    TYPOGRAPHY
    ============================================================ */
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -58,8 +62,9 @@ a {
     a:hover {
         text-decoration: underline;
     }
+
 /* ============================================================
-   LAYOUT STRUCTURE
+   LAYOUT STRUCTURE (Desktop)
    ============================================================ */
 header {
     display: flex;
@@ -69,6 +74,11 @@ header {
     background-color: var(--primary-color);
     color: white;
 }
+
+    header h1, header p {
+        color: white;
+        margin-bottom: 0;
+    }
 
 nav ul {
     display: flex;
@@ -86,12 +96,6 @@ section {
     margin-bottom: 3rem;
 }
 
-/* Grid layout for forms or article lists */
-.form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
 /* ============================================================
    VISUAL STYLES
    ============================================================ */
@@ -119,16 +123,18 @@ button {
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
-figure {
-    margin: 1.5rem 0;
-    text-align: center;
-}
-
+/* Responsive Images */
 img {
     max-width: 100%;
     height: auto;
+    display: block;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+figure {
+    margin: 1.5rem 0;
+    text-align: center;
 }
 
 footer {
@@ -137,16 +143,75 @@ footer {
     text-align: center;
     padding: 1.5rem;
 }
+
+    footer a {
+        color: var(--secondary-color);
+    }
+
 /* ============================================================
-   RESPONSIVE IMAGES
+   PART 3 ADDITIONS: LIGHTBOX, SEARCH & MAP
    ============================================================ */
-img {
-    max-width: 100%; /* Prevents images from overflowing their container */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes unwanted bottom spacing */
+.search-container {
+    margin: 20px 0;
+    text-align: center;
 }
+
+#searchInput {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Lightbox Modal */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .close:hover {
+        color: var(--secondary-color);
+    }
+
+/* Map Container */
+.map-container {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* ============================================================
-   RESPONSIVE DESIGN
+   RESPONSIVE DESIGN (Media Queries)
    ============================================================ */
 /* Tablet Breakpoint */
 @media (max-width: 768px) {
@@ -159,10 +224,6 @@ img {
         flex-direction: column;
         gap: 0.5rem;
         margin-top: 1rem;
-    }
-
-    .form-grid {
-        grid-template-columns: 1fr; /* Stack form fields */
     }
 }
 
@@ -179,4 +240,4 @@ img {
     main {
         padding: 1rem 3%;
     }
-} 
+}
